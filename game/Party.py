@@ -1,0 +1,6 @@
+class Party:
+    partymembers = []
+    inventory = []
+
+
+
