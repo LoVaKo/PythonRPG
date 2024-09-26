@@ -1,6 +1,7 @@
 from gearhandler import GearHandler
+from abc import ABC
 
-class Character:
+class Character(ABC):
     gear_handler = GearHandler()
     inventory = []
     effects = []
